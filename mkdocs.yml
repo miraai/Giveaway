@@ -16,7 +16,7 @@ theme_dir: material
 
 # Options
 extra:
-  logo: 'images/logo.svg'
+  logo: 'images/logo.png'
   feature:
     tabs: false
   palette:
