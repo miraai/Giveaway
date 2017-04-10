@@ -1,0 +1,154 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Documentation \nfor Giveaway\n\u00b6\n\n\nBeautiful project documentation\n\u00b6\n\n\nGiveaway is an app that does app things for the app people by the app aliens. Spaceships will appear above your house and take your wine. Please hide. Or share. Go green or go clean. Sharing is caring. What is life.\n\n\n\n\nUse how?\n\u00b6\n\n\nInstall the latest version of Giveaway app:\n\n\n\n\nOr use our web app:\n\n\nLink to the web app\n\n\n\n\n\nFor detailed instructions see the \ngetting started guide\n.",
+            "title": "Giveaway"
+        },
+        {
+            "location": "/#documentation-for-giveaway",
+            "text": "",
+            "title": "Documentation for Giveaway"
+        },
+        {
+            "location": "/#beautiful-project-documentation",
+            "text": "Giveaway is an app that does app things for the app people by the app aliens. Spaceships will appear above your house and take your wine. Please hide. Or share. Go green or go clean. Sharing is caring. What is life.",
+            "title": "Beautiful project documentation"
+        },
+        {
+            "location": "/#use-how",
+            "text": "Install the latest version of Giveaway app:   Or use our web app:  Link to the web app  For detailed instructions see the  getting started guide .",
+            "title": "Use how?"
+        },
+        {
+            "location": "/getting-started/",
+            "text": "Getting started\n\u00b6\n\n\nInstallation\n\u00b6\n\n\nYes, we will get there.\n\n\n\n\n\nTroubleshooting\n\u00b6\n\n\n\n\nInstallation on SomePlaceOrDevice\n\n\nI need this.\n\n\n\n\n\n\nError: unrecognized something\n\n\nI need this, too.\n\n\n\n\nUsage\n\u00b6\n\n\nYes.\n\n\ntheme\n:\n \n'Ajla\n \nbesto\n \ngirl'\n\n\n\n\n\n\nGoogle Analytics\n\u00b6\n\n\ngoogle_analytics:\n\n  - 'UA-XXXXXXXX-X'\n  - 'auto'",
+            "title": "Getting started"
+        },
+        {
+            "location": "/getting-started/#getting-started",
+            "text": "",
+            "title": "Getting started"
+        },
+        {
+            "location": "/getting-started/#installation",
+            "text": "Yes, we will get there.",
+            "title": "Installation"
+        },
+        {
+            "location": "/getting-started/#troubleshooting",
+            "text": "Installation on SomePlaceOrDevice  I need this.    Error: unrecognized something  I need this, too.",
+            "title": "Troubleshooting"
+        },
+        {
+            "location": "/getting-started/#usage",
+            "text": "Yes.  theme :   'Ajla   besto   girl'",
+            "title": "Usage"
+        },
+        {
+            "location": "/getting-started/#google-analytics",
+            "text": "google_analytics:   - 'UA-XXXXXXXX-X'\n  - 'auto'",
+            "title": "Google Analytics"
+        },
+        {
+            "location": "/documentation/admonition/",
+            "text": "Introduction\n\u00b6",
+            "title": "Introduction"
+        },
+        {
+            "location": "/documentation/admonition/#introduction",
+            "text": "",
+            "title": "Introduction"
+        },
+        {
+            "location": "/documentation/codehilite/",
+            "text": "General Description\n\u00b6",
+            "title": "General Description"
+        },
+        {
+            "location": "/documentation/codehilite/#general-description",
+            "text": "",
+            "title": "General Description"
+        },
+        {
+            "location": "/documentation/footnotes/",
+            "text": "Specific Requirements\n\u00b6",
+            "title": "Specific Requirements"
+        },
+        {
+            "location": "/documentation/footnotes/#specific-requirements",
+            "text": "",
+            "title": "Specific Requirements"
+        },
+        {
+            "location": "/documentation/metadata/",
+            "text": "System Analysis\n\u00b6",
+            "title": "System Analysis"
+        },
+        {
+            "location": "/documentation/metadata/#system-analysis",
+            "text": "",
+            "title": "System Analysis"
+        },
+        {
+            "location": "/documentation/permalinks/",
+            "text": "Architecture?\n\u00b6",
+            "title": "Deployment?"
+        },
+        {
+            "location": "/documentation/permalinks/#architecture",
+            "text": "",
+            "title": "Architecture?"
+        },
+        {
+            "location": "/documentation/pymdown/",
+            "text": "Deployment?\n\u00b6",
+            "title": "Architecture?"
+        },
+        {
+            "location": "/documentation/pymdown/#deployment",
+            "text": "",
+            "title": "Deployment?"
+        },
+        {
+            "location": "/customization/",
+            "text": "Code\n\u00b6",
+            "title": "Code"
+        },
+        {
+            "location": "/customization/#code",
+            "text": "",
+            "title": "Code"
+        },
+        {
+            "location": "/release-notes/",
+            "text": "Release notes\n\u00b6\n\n\nWill be.",
+            "title": "Release notes"
+        },
+        {
+            "location": "/release-notes/#release-notes",
+            "text": "Will be.",
+            "title": "Release notes"
+        },
+        {
+            "location": "/contributing/",
+            "text": "Contributing\n\u00b6\n\n\nUseful?",
+            "title": "Contributing"
+        },
+        {
+            "location": "/contributing/#contributing",
+            "text": "Useful?",
+            "title": "Contributing"
+        },
+        {
+            "location": "/license/",
+            "text": "License\n\u00b6\n\n\nMIT License\n\n\nCopyright \u00a9 2017 Giveaway\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.",
+            "title": "License"
+        },
+        {
+            "location": "/license/#license",
+            "text": "MIT License  Copyright \u00a9 2017 Giveaway  Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.",
+            "title": "License"
+        }
+    ]
+}

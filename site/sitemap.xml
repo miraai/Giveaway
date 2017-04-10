@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//getting-started/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//documentation/admonition/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//documentation/codehilite/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//documentation/footnotes/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//documentation/metadata/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//documentation/permalinks/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//documentation/pymdown/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//customization/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//release-notes/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//contributing/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://miraai.github.io/GiveawayRTD//license/</loc>
+     <lastmod>2017-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

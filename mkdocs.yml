@@ -1,0 +1,67 @@
+# Project information
+site_name: Giveaway
+site_description: Giveaway Application
+site_author: Ajla Dzekovic
+site_url: http://miraai.github.io/Giveaway/
+
+# Repository
+repo_name: miraai/GiveawayRTD
+repo_url: https://github.com/miraai/Giveaway
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2017 Giveaway'
+
+# Theme directory
+theme_dir: material
+
+# Options
+extra:
+  logo: 'images/logo.svg'
+  feature:
+    tabs: false
+  palette:
+    primary: green
+    accent: green
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+
+# Page tree
+pages:
+  - Giveaway: index.md
+  - Getting started: getting-started.md
+  - Documentation:
+    - Introduction: documentation/admonition.md
+    - General Description: documentation/codehilite.md
+    - Specific Requirements: documentation/footnotes.md
+    - System Analysis: documentation/metadata.md
+    - Deployment?: documentation/permalinks.md
+    - Architecture?: documentation/pymdown.md
+  - Code: customization.md
+  - Release notes: release-notes.md
+  - Contributing: contributing.md
+  - License: license.md
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
