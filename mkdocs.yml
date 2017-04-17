@@ -2,11 +2,11 @@
 site_name: Giveaway
 site_description: Giveaway Application
 site_author: Ajla Dzekovic
-site_url: http://miraai.github.io/Giveaway/
+site_url: http://miraai.github.io/giveaway/
 
 # Repository
-repo_name: miraai/Giveaway
-repo_url: https://github.com/miraai/Giveaway
+repo_name: miraai/giveaway
+repo_url: https://github.com/miraai/giveaway
 
 # Copyright
 copyright: 'Copyright &copy; 2016 - 2017 Giveaway'

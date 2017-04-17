@@ -32,25 +32,43 @@
     </url>
         
     <url>
-     <loc>http://miraai.github.io/Giveaway//documentation/footnotes/</loc>
+     <loc>http://miraai.github.io/Giveaway//documentation/specificreq/</loc>
      <lastmod>2017-04-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://miraai.github.io/Giveaway//documentation/metadata/</loc>
+     <loc>http://miraai.github.io/Giveaway//documentation/sysanalysis/</loc>
      <lastmod>2017-04-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://miraai.github.io/Giveaway//documentation/permalinks/</loc>
+     <loc>http://miraai.github.io/Giveaway//documentation/deployment/</loc>
      <lastmod>2017-04-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://miraai.github.io/Giveaway//documentation/pymdown/</loc>
+     <loc>http://miraai.github.io/Giveaway//documentation/architecture/</loc>
+     <lastmod>2017-04-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/Giveaway//documentation/implementation/</loc>
+     <lastmod>2017-04-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/Giveaway//documentation/testplan/</loc>
+     <lastmod>2017-04-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://miraai.github.io/Giveaway//documentation/design/</loc>
      <lastmod>2017-04-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -59,7 +77,7 @@
 
     
     <url>
-     <loc>http://miraai.github.io/Giveaway//customization/</loc>
+     <loc>http://miraai.github.io/Giveaway//code/</loc>
      <lastmod>2017-04-17</lastmod>
      <changefreq>daily</changefreq>
     </url>

@@ -71,52 +71,67 @@
             "title": "General Description"
         },
         {
-            "location": "/documentation/footnotes/",
+            "location": "/documentation/specificreq/",
             "text": "Specific Requirements\n\u00b6",
             "title": "Specific Requirements"
         },
         {
-            "location": "/documentation/footnotes/#specific-requirements",
+            "location": "/documentation/specificreq/#specific-requirements",
             "text": "",
             "title": "Specific Requirements"
         },
         {
-            "location": "/documentation/metadata/",
+            "location": "/documentation/sysanalysis/",
             "text": "System Analysis\n\u00b6",
             "title": "System Analysis"
         },
         {
-            "location": "/documentation/metadata/#system-analysis",
+            "location": "/documentation/sysanalysis/#system-analysis",
             "text": "",
             "title": "System Analysis"
         },
         {
-            "location": "/documentation/permalinks/",
-            "text": "Architecture?\n\u00b6",
-            "title": "Deployment?"
-        },
-        {
-            "location": "/documentation/permalinks/#architecture",
-            "text": "",
-            "title": "Architecture?"
-        },
-        {
-            "location": "/documentation/pymdown/",
+            "location": "/documentation/deployment/",
             "text": "Deployment?\n\u00b6",
-            "title": "Architecture?"
+            "title": "Deployment"
         },
         {
-            "location": "/documentation/pymdown/#deployment",
+            "location": "/documentation/deployment/#deployment",
             "text": "",
             "title": "Deployment?"
         },
         {
-            "location": "/customization/",
+            "location": "/documentation/architecture/",
+            "text": "Architecture?\n\u00b6",
+            "title": "Architecture"
+        },
+        {
+            "location": "/documentation/architecture/#architecture",
+            "text": "",
+            "title": "Architecture?"
+        },
+        {
+            "location": "/documentation/implementation/",
+            "text": "implementation.md",
+            "title": "Implementation"
+        },
+        {
+            "location": "/documentation/testplan/",
+            "text": "testplan.md",
+            "title": "Master Test Plan"
+        },
+        {
+            "location": "/documentation/design/",
+            "text": "",
+            "title": "Design"
+        },
+        {
+            "location": "/code/",
             "text": "Code\n\u00b6",
             "title": "Code"
         },
         {
-            "location": "/customization/#code",
+            "location": "/code/#code",
             "text": "",
             "title": "Code"
         },
