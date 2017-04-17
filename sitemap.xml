@@ -44,18 +44,6 @@
     </url>
         
     <url>
-     <loc>http://miraai.github.io/giveaway//documentation/deployment/</loc>
-     <lastmod>2017-04-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://miraai.github.io/giveaway//documentation/architecture/</loc>
-     <lastmod>2017-04-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>http://miraai.github.io/giveaway//documentation/implementation/</loc>
      <lastmod>2017-04-17</lastmod>
      <changefreq>daily</changefreq>
