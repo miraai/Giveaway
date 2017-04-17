@@ -92,7 +92,7 @@
         },
         {
             "location": "/documentation/generaldesc/",
-            "text": "2. General Description\n\u00b6\n\n\nThis section will give an overview of the whole system. The system will be explained in its context to show how the system interacts with other systems and introduce the basic functionality of it. It will also describe what type of stakeholders that will use the system and what functionality s avaliable for each type. At last, the constraints and assumptions for the system will be presented.\n\n\n2.1 Product perspective\n\u00b6\n\n\nThis system will consist of two parts: one mobile application and one web application. Both mobile and web application will share the same static and dynamic content as well as one shared SQL database. \n\n\n\n\nFigure 1. Architecture Block Diagram\n\u00b6\n\n\nAs stated, both mobile and web application will used shared static and dynamic content and all the information distributed through the application will be stored in the same database. As presented in the Figure 1 above. All the load will be shared between mobile and web application. Information will be provided through the front end of the application by users and administrators. Application is scalable and autoscaling is used as responsiveness of the application to be displayed on all device sizes. \n\n\nThe information is stored in shared SQL database. After the changes are made in the database itself through execusion of the task queries.\nTask Queues provide a mechanism to offload longer running tasks to backend servers, freeing the front end servers to service new user requests. Application should provide real time content as fast as possible and as accurate as possible through communication with the database.\n\n\nMemcache is an in-memory cache shared across the instances. This provides extremely high speed access to information cached by the web server (e.g. authentication or account information).\n\n\n2.1.1 System Interface\n\u00b6\n\n\nSystem user can share details and information binded to his account and stored in the database through Internet connection.\n\n\n2.1.2 User Interface\n\u00b6\n\n\nScreen format and list structure should be easily accessible to all users as well as easy to use. System must be user friendly and interactive.\n\n\nAll system fuctions should be avaliable for all system users.\n\n\n2.1.3 Hardware Interface\n\u00b6\n\n\nSystem does not require any hardware support because it is located on the Network.\n\n\n2.1.4 Software Interface\n\u00b6\n\n\n\n\nLanguage: Java\n\n\nFrontend: JSP\n\n\nBackend: Spring Framework\n\n\n\n\n2.1.5 Communication Interface\n\u00b6\n\n\nUsers communicate through the Internet network.\n\n\n2.1.6 Memory Requirements\n\u00b6\n\n\nThe system requires the minimal ammount of RAM and HDD memory definied by its system requirements.\n\n\n2.1.7 Operations\n\u00b6\n\n\nUser sfirst have to register his user account by filling the registration form. System provides the interface for the account personalization (username, email and password changes) required for the user to log in. System has to provide the data backup in case of data loss.\n\n\n2.2 Product Functions\n\u00b6\n\n\nWith the application, the users will be able to create giveaways and receive ones. Users can create giveaways with the image of an item they want to gift to sameone as well as a description of the choosen item. Users who want to receive a giveaway from someone leave a comment under the presented giveaway and the choosen comment by the gift owner will get the item. \n\n\nUsers can also search giveaways and users that are using the application. Users can see the News Feed that will provide all the content provided by the users they are following and Trending page where they will see all the trending giveaways currently happening.\n\n\nThe result of the search will be viewed either in a list view or in a profile view, depending on what criteria included in the search. The list view will have one list item for each giveaway matching the search criteria and show a small part of the giveaway information so the user can identify the searched giveaway. \n\n\n2.3 User Characteristics\n\u00b6\n\n\nThere are three types of users that interact\nwith the system: users of the application, giveaway owners and administrators. Each of these three types of users \nhas different use of the system so each of them has their own requirements.\n\n\nThe application users can only use the application to find giveaways and users and create and edit their own profile. They can also create giveaways and become gift owners. This means that the user have to be able to search for giveaways, choose a giveaway from that search and then navigate to it. In order for the users to get a relevant search result there are multiple criteria the users can specify and all results matches all of those.\n\n\nThe giveaway owners will also be able to use both mobile and web application. There they will manage the information about their giveaways, for example a description of the giveaway, contact information and their profile. They also can create new giveaways and search for one as well as search of the users of the application.\n\n\nThe administrators can also interact both with mobile and web application. They are managing the overall system so there is no incorrect information within it. The administrator can manage the information for each restaurant as well as the options for both the application users and the giveaway owners. \n\n\n2.4 Constraints\n\u00b6\n\n\nThe application is constrained by the system interface to the navigation system within the application. Since there are multiple system manufacturers, the interface will likely not be the same for every one of them. Also, there may be a difference between what system features each of them provide.\n\n\nThe Internet connection is also a constraint for the application. Since the application fetches data from the database over the Internet, it is crucial that there is an Internet connection for the application to function. Both the web and the mobile application will be constrained by the capacity of the database. Since \nthe database is shared between both application it may be forced to queue incoming requests and therefor increase the time it takes to fetch data.\n\n\n2.5 Assumptions and Dependencies\n\u00b6\n\n\nOne assumption about the product is that it will always be used on mobile phones that have enough performance. If the phone does not have enough hardware resources available for the application, for example the users might have allocated them with other applications, there may be scenarios where the application does not work as intended or even at all. \n\n\nBefore the official release of the application there will be a list of minimal and recommended both hardware and software requirements.\n\n\n2.6 Apportioning of Requirements\n\u00b6\n\n\nIn the case that the project is delayed, there are some requirements that could be transferred to the next version of the application.",
+            "text": "2. General Description\n\u00b6\n\n\nThis section will give an overview of the whole system. The system will be explained in its context to show how the system interacts with other systems and introduce the basic functionality of it. It will also describe what type of stakeholders that will use the system and what functionality s avaliable for each type. At last, the constraints and assumptions for the system will be presented.\n\n\n2.1 Product perspective\n\u00b6\n\n\nThis system will consist of two parts: one mobile application and one web application. Both mobile and web application will share the same static and dynamic content as well as one shared SQL database. \n\n\n\n\nFigure 1. Architecture Block Diagram\n\u00b6\n\n\nAs stated, both mobile and web application will used shared static and dynamic content and all the information distributed through the application will be stored in the same database. As presented in the Figure 1 above. All the load will be shared between mobile and web application. Information will be provided through the front end of the application by users and administrators. Application is scalable and autoscaling is used as responsiveness of the application to be displayed on all device sizes. \n\n\nThe information is stored in shared SQL database. After the changes are made in the database itself through execusion of the task queries.\nTask Queues provide a mechanism to offload longer running tasks to backend servers, freeing the front end servers to service new user requests. Application should provide real time content as fast as possible and as accurate as possible through communication with the database.\n\n\nMemcache is an in-memory cache shared across the instances. This provides extremely high speed access to information cached by the web server (e.g. authentication or account information).\n\n\n2.2 Product Functions\n\u00b6\n\n\nWith the application, the users will be able to create giveaways and receive ones. Users can create giveaways with the image of an item they want to gift to sameone as well as a description of the choosen item. Users who want to receive a giveaway from someone leave a comment under the presented giveaway and the choosen comment by the gift owner will get the item. \n\n\nUsers can also search giveaways and users that are using the application. Users can see the News Feed that will provide all the content provided by the users they are following and Trending page where they will see all the trending giveaways currently happening.\n\n\nThe result of the search will be viewed either in a list view or in a profile view, depending on what criteria included in the search. The list view will have one list item for each giveaway matching the search criteria and show a small part of the giveaway information so the user can identify the searched giveaway. \n\n\n2.3 User Characteristics\n\u00b6\n\n\nThere are three types of users that interact\nwith the system: users of the application, giveaway owners and administrators. Each of these three types of users \nhas different use of the system so each of them has their own requirements.\n\n\nThe application users can only use the application to find giveaways and users and create and edit their own profile. They can also create giveaways and become gift owners. This means that the user have to be able to search for giveaways, choose a giveaway from that search and then navigate to it. In order for the users to get a relevant search result there are multiple criteria the users can specify and all results matches all of those.\n\n\nThe giveaway owners will also be able to use both mobile and web application. There they will manage the information about their giveaways, for example a description of the giveaway, contact information and their profile. They also can create new giveaways and search for one as well as search of the users of the application.\n\n\nThe administrators can also interact both with mobile and web application. They are managing the overall system so there is no incorrect information within it. The administrator can manage the information for each restaurant as well as the options for both the application users and the giveaway owners. \n\n\n2.4 Constraints\n\u00b6\n\n\nThe application is constrained by the system interface to the navigation system within the application. Since there are multiple system manufacturers, the interface will likely not be the same for every one of them. Also, there may be a difference between what system features each of them provide.\n\n\nThe Internet connection is also a constraint for the application. Since the application fetches data from the database over the Internet, it is crucial that there is an Internet connection for the application to function. Both the web and the mobile application will be constrained by the capacity of the database. Since \nthe database is shared between both application it may be forced to queue incoming requests and therefor increase the time it takes to fetch data.\n\n\n2.5 Assumptions and Dependencies\n\u00b6\n\n\nOne assumption about the product is that it will always be used on mobile phones that have enough performance. If the phone does not have enough hardware resources available for the application, for example the users might have allocated them with other applications, there may be scenarios where the application does not work as intended or even at all. \n\n\nBefore the official release of the application there will be a list of minimal and recommended both hardware and software requirements.\n\n\n2.6 Apportioning of Requirements\n\u00b6\n\n\nIn the case that the project is delayed, there are some requirements that could be transferred to the next version of the application.",
             "title": "General Description"
         },
         {
@@ -109,41 +109,6 @@
             "location": "/documentation/generaldesc/#figure-1-architecture-block-diagram",
             "text": "As stated, both mobile and web application will used shared static and dynamic content and all the information distributed through the application will be stored in the same database. As presented in the Figure 1 above. All the load will be shared between mobile and web application. Information will be provided through the front end of the application by users and administrators. Application is scalable and autoscaling is used as responsiveness of the application to be displayed on all device sizes.   The information is stored in shared SQL database. After the changes are made in the database itself through execusion of the task queries.\nTask Queues provide a mechanism to offload longer running tasks to backend servers, freeing the front end servers to service new user requests. Application should provide real time content as fast as possible and as accurate as possible through communication with the database.  Memcache is an in-memory cache shared across the instances. This provides extremely high speed access to information cached by the web server (e.g. authentication or account information).",
             "title": "Figure 1. Architecture Block Diagram"
-        },
-        {
-            "location": "/documentation/generaldesc/#211-system-interface",
-            "text": "System user can share details and information binded to his account and stored in the database through Internet connection.",
-            "title": "2.1.1 System Interface"
-        },
-        {
-            "location": "/documentation/generaldesc/#212-user-interface",
-            "text": "Screen format and list structure should be easily accessible to all users as well as easy to use. System must be user friendly and interactive.  All system fuctions should be avaliable for all system users.",
-            "title": "2.1.2 User Interface"
-        },
-        {
-            "location": "/documentation/generaldesc/#213-hardware-interface",
-            "text": "System does not require any hardware support because it is located on the Network.",
-            "title": "2.1.3 Hardware Interface"
-        },
-        {
-            "location": "/documentation/generaldesc/#214-software-interface",
-            "text": "Language: Java  Frontend: JSP  Backend: Spring Framework",
-            "title": "2.1.4 Software Interface"
-        },
-        {
-            "location": "/documentation/generaldesc/#215-communication-interface",
-            "text": "Users communicate through the Internet network.",
-            "title": "2.1.5 Communication Interface"
-        },
-        {
-            "location": "/documentation/generaldesc/#216-memory-requirements",
-            "text": "The system requires the minimal ammount of RAM and HDD memory definied by its system requirements.",
-            "title": "2.1.6 Memory Requirements"
-        },
-        {
-            "location": "/documentation/generaldesc/#217-operations",
-            "text": "User sfirst have to register his user account by filling the registration form. System provides the interface for the account personalization (username, email and password changes) required for the user to log in. System has to provide the data backup in case of data loss.",
-            "title": "2.1.7 Operations"
         },
         {
             "location": "/documentation/generaldesc/#22-product-functions",
@@ -172,13 +137,58 @@
         },
         {
             "location": "/documentation/specificreq/",
-            "text": "Specific Requirements\n\u00b6",
+            "text": "3. Specific Requirements\n\u00b6\n\n\nThis section contains all of the functional and quality requirements of the system. It gives a detailed description of the system and all its features. \n\n\n3.1 External Interface Requirements\n\u00b6\n\n\nThis section provides a detailed description of all inputs into and outputs from the system. It also gives a description of the hardware, software and communication interfaces and provides basic prototypes of the user interface.\n\n\n3.1.1 System Interface\n\u00b6\n\n\nSystem user can share details and information binded to his account and stored in the database through Internet connection.\n\n\n3.1.2 User Interface\n\u00b6\n\n\nScreen format and list structure should be easily accessible to all users as well as easy to use. System must be user friendly and interactive.\n\n\nAll system fuctions should be avaliable for all system users.\n\n\n3.1.3 Hardware Interface\n\u00b6\n\n\nSystem does not require any hardware support because it is located on the Network.\n\n\n3.1.4 Software Interface\n\u00b6\n\n\n\n\nLanguage: Java\n\n\nFrontend: JSP\n\n\nBackend: Spring Framework\n\n\n\n\n3.1.5 Communication Interface\n\u00b6\n\n\nUsers communicate through the Internet network.\n\n\n3.1.6 Memory Requirements\n\u00b6\n\n\nThe system requires the minimal ammount of RAM and HDD memory definied by its system requirements.\n\n\n3.1.7 Operations\n\u00b6\n\n\nUsers first have to register a user account by filling the registration form. System provides the interface for the account personalization (username, email and password changes) required for the user to log in. System has to provide the data backup in case of data loss.\n\n\n3.2 Functional Requirements\n\u00b6",
             "title": "Specific Requirements"
         },
         {
-            "location": "/documentation/specificreq/#specific-requirements",
+            "location": "/documentation/specificreq/#3-specific-requirements",
+            "text": "This section contains all of the functional and quality requirements of the system. It gives a detailed description of the system and all its features.",
+            "title": "3. Specific Requirements"
+        },
+        {
+            "location": "/documentation/specificreq/#31-external-interface-requirements",
+            "text": "This section provides a detailed description of all inputs into and outputs from the system. It also gives a description of the hardware, software and communication interfaces and provides basic prototypes of the user interface.",
+            "title": "3.1 External Interface Requirements"
+        },
+        {
+            "location": "/documentation/specificreq/#311-system-interface",
+            "text": "System user can share details and information binded to his account and stored in the database through Internet connection.",
+            "title": "3.1.1 System Interface"
+        },
+        {
+            "location": "/documentation/specificreq/#312-user-interface",
+            "text": "Screen format and list structure should be easily accessible to all users as well as easy to use. System must be user friendly and interactive.  All system fuctions should be avaliable for all system users.",
+            "title": "3.1.2 User Interface"
+        },
+        {
+            "location": "/documentation/specificreq/#313-hardware-interface",
+            "text": "System does not require any hardware support because it is located on the Network.",
+            "title": "3.1.3 Hardware Interface"
+        },
+        {
+            "location": "/documentation/specificreq/#314-software-interface",
+            "text": "Language: Java  Frontend: JSP  Backend: Spring Framework",
+            "title": "3.1.4 Software Interface"
+        },
+        {
+            "location": "/documentation/specificreq/#315-communication-interface",
+            "text": "Users communicate through the Internet network.",
+            "title": "3.1.5 Communication Interface"
+        },
+        {
+            "location": "/documentation/specificreq/#316-memory-requirements",
+            "text": "The system requires the minimal ammount of RAM and HDD memory definied by its system requirements.",
+            "title": "3.1.6 Memory Requirements"
+        },
+        {
+            "location": "/documentation/specificreq/#317-operations",
+            "text": "Users first have to register a user account by filling the registration form. System provides the interface for the account personalization (username, email and password changes) required for the user to log in. System has to provide the data backup in case of data loss.",
+            "title": "3.1.7 Operations"
+        },
+        {
+            "location": "/documentation/specificreq/#32-functional-requirements",
             "text": "",
-            "title": "Specific Requirements"
+            "title": "3.2 Functional Requirements"
         },
         {
             "location": "/documentation/sysanalysis/",
