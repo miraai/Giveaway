@@ -7,7 +7,7 @@ This section will give an overview of the whole system. The system will be expla
 This system will consist of two parts: one mobile application and one web application. Both mobile and web application will share the same static and dynamic content as well as one shared SQL database. 
 
 [![Architecture Block Diagram](../images/block1.png)](../images/block1.png)
-###### Figure 1. Architecure Block Diagram
+###### Figure 1. Architecture Block Diagram
 
 As stated, both mobile and web application will used shared static and dynamic content and all the information distributed through the application will be stored in the same database. As presented in the Figure 1 above. All the load will be shared between mobile and web application. Information will be provided through the front end of the application by users and administrators. Application is scalable and autoscaling is used as responsiveness of the application to be displayed on all device sizes. 
 
