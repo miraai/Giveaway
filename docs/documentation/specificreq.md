@@ -8,17 +8,17 @@ This section provides a detailed description of all inputs into and outputs from
 
 ### 3.1.1 System Interface
 
-System user can share details and information binded to his account and stored in the database through Internet connection.
+System users can share details and information bound to his account and stored in the database through an Internet connection.
 
 ### 3.1.2 User Interface
 
-Screen format and list structure should be easily accessible to all users as well as easy to use. System must be user friendly and interactive.
+Screen format and list structure should be easily accessible to all users as well as easy to use. The system must be user friendly and interactive.
 
 All system fuctions should be avaliable for all system users.
 
 ### 3.1.3 Hardware Interface
 
-System does not require any hardware support because it is located on the Network.
+The system does not require any hardware support because it is located on the Network.
 
 ### 3.1.4 Software Interface
 
@@ -36,7 +36,7 @@ The system requires the minimal ammount of RAM and HDD memory definied by its sy
 
 ### 3.1.7 Operations
 
-Users first have to register a user account by filling the registration form. System provides the interface for the account personalization (username, email and password changes) required for the user to log in. System has to provide the data backup in case of data loss.
+Users first have to register a user account by filling the registration form. The system provides the interface for the account personalization (username, email and password changes) required for the user to log in. The system has to provide the data backup in case of data loss.
 
 ## 3.2 Functional Requirements
 
