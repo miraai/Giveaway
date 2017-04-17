@@ -16,3 +16,36 @@ Task Queues provide a mechanism to offload longer running tasks to backend serve
 
 Memcache is an in-memory cache shared across the instances. This provides extremely high speed access to information cached by the web server (e.g. authentication or account information).
 
+### 2.1.1 System Interface
+
+System user can share details and information binded to his account and stored in the database through Internet connection.
+
+### 2.1.2 User Interface
+
+Screen format and list structure should be easily accessible to all users as well as easy to use. System must be user friendly and interactive.
+
+All system fuctions should be avaliable for all system users.
+
+### 2.1.3 Hardware Interface
+
+System does not require any hardware support because it is located on the Network.
+
+### 2.1.4 Software Interface
+
+- Language: Java
+- Frontend: JSP
+- Backend: Spring Framework
+
+### 2.1.5 Communication Interface
+
+Users communicate through the Internet network.
+
+### 2.1.6 Memory Requirements
+
+The system requires the minimal ammount of RAM and HDD memory definied by its system requirements.
+
+### 2.1.7 Operations
+
+User sfirst have to register his user account by filling the registration form. System provides the interface for the account personalization (username, email and password changes) required for the user to log in. System has to provide the data backup in case of data loss.
+
+## 2.2 Product Functions
