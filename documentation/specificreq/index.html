@@ -344,6 +344,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#33-use-case-diagrams" title="3.3 Use Case Diagrams" class="md-nav__link">
+    3.3 Use Case Diagrams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-non-fuctional-requirements" title="3.4 Non-fuctional Requirements" class="md-nav__link">
+    3.4 Non-fuctional Requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35-activity-diagrams" title="3.5 Activity Diagrams" class="md-nav__link">
+    3.5 Activity Diagrams
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -567,6 +588,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#33-use-case-diagrams" title="3.3 Use Case Diagrams" class="md-nav__link">
+    3.3 Use Case Diagrams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-non-fuctional-requirements" title="3.4 Non-fuctional Requirements" class="md-nav__link">
+    3.4 Non-fuctional Requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35-activity-diagrams" title="3.5 Activity Diagrams" class="md-nav__link">
+    3.5 Activity Diagrams
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -606,6 +648,189 @@
 <h3 id="317-operations">3.1.7 Operations<a class="headerlink" href="#317-operations" title="Permanent link">&para;</a></h3>
 <p>Users first have to register a user account by filling the registration form. System provides the interface for the account personalization (username, email and password changes) required for the user to log in. System has to provide the data backup in case of data loss.</p>
 <h2 id="32-functional-requirements">3.2 Functional Requirements<a class="headerlink" href="#32-functional-requirements" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Description</th>
+<th>Code</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>User can create their own account</td>
+<td>FR1</td>
+<td>High</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>User can log in</td>
+<td>FR2</td>
+<td>High</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>User can log out</td>
+<td>FR3</td>
+<td>High</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>User can edit their profile</td>
+<td>FR3</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>User can create giveaway</td>
+<td>FR4</td>
+<td>High</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>User can delete giveaway</td>
+<td>FR5</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>7.</td>
+<td>User can comment on giveaways</td>
+<td>FR6</td>
+<td>High</td>
+</tr>
+<tr>
+<td>8.</td>
+<td>User can delete comment on giveaways</td>
+<td>FR7</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>9.</td>
+<td>User can choose the best comment</td>
+<td>FR8</td>
+<td>High</td>
+</tr>
+<tr>
+<td>10.</td>
+<td>User can send a message to other users</td>
+<td>FR9</td>
+<td>High</td>
+</tr>
+<tr>
+<td>11.</td>
+<td>User can answer to received messages</td>
+<td>FR10</td>
+<td>High</td>
+</tr>
+<tr>
+<td>12.</td>
+<td>User can delete received messages</td>
+<td>FR11</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>13.</td>
+<td>User can delete sent messages</td>
+<td>FR12</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>14.</td>
+<td>User can delete their profile</td>
+<td>FR13</td>
+<td>Low</td>
+</tr>
+</tbody>
+</table>
+<h2 id="33-use-case-diagrams">3.3 Use Case Diagrams<a class="headerlink" href="#33-use-case-diagrams" title="Permanent link">&para;</a></h2>
+<h2 id="34-non-fuctional-requirements">3.4 Non-fuctional Requirements<a class="headerlink" href="#34-non-fuctional-requirements" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Description</th>
+<th>Code</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Administrator has an unique account</td>
+<td>NFR1</td>
+<td>High</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Only administrator can access database information</td>
+<td>NFR2</td>
+<td>High</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Only administrator can delete users from the database</td>
+<td>NFR3</td>
+<td>High</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Only administrator can delete giveaways from the databse</td>
+<td>NFR3</td>
+<td>High</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>System has to notify users 24h before the system update or scheduled maintenance</td>
+<td>NFR4</td>
+<td>High</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>User interface should have maximum four depth layers</td>
+<td>NFR5</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>7.</td>
+<td>Administrator can only see admin panel</td>
+<td>NFR6</td>
+<td>High</td>
+</tr>
+<tr>
+<td>8.</td>
+<td>Administrator can ban users</td>
+<td>NFR7</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>9.</td>
+<td>Administrator can unban users</td>
+<td>NFR8</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>10.</td>
+<td>Administrator has to enter a reason for user ban</td>
+<td>NFR9</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>11.</td>
+<td>User passwords should be hashed</td>
+<td>NFR10</td>
+<td>High</td>
+</tr>
+<tr>
+<td>11.</td>
+<td>Tokens are used for password reset</td>
+<td>NFR11</td>
+<td>High</td>
+</tr>
+</tbody>
+</table>
+<h2 id="35-activity-diagrams">3.5 Activity Diagrams<a class="headerlink" href="#35-activity-diagrams" title="Permanent link">&para;</a></h2>
                 
                   
                 
