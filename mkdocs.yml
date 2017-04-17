@@ -54,8 +54,6 @@ pages:
     - General Description: documentation/generaldesc.md
     - Specific Requirements: documentation/specificreq.md
     - System Analysis: documentation/sysanalysis.md
-    - Deployment: documentation/deployment.md
-    - Architecture: documentation/architecture.md
     - Implementation: documentation/implementation.md
     - Master Test Plan: documentation/testplan.md
     - Design: documentation/design.md
