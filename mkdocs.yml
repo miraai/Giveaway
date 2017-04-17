@@ -50,13 +50,16 @@ pages:
   - Giveaway: index.md
   - Getting started: getting-started.md
   - Documentation:
-    - Introduction: documentation/admonition.md
-    - General Description: documentation/codehilite.md
-    - Specific Requirements: documentation/footnotes.md
-    - System Analysis: documentation/metadata.md
-    - Deployment?: documentation/permalinks.md
-    - Architecture?: documentation/pymdown.md
-  - Code: customization.md
+    - Introduction: documentation/introduction.md
+    - General Description: documentation/generaldesc.md
+    - Specific Requirements: documentation/specificreq.md
+    - System Analysis: documentation/sysanalysis.md
+    - Deployment: documentation/deployment.md
+    - Architecture: documentation/architecture.md
+    - Implementation: documentation/implementation.md
+    - Master Test Plan: documentation/testplan.md
+    - Design: documentation/design.md
+  - Code: code.md
   - Release notes: release-notes.md
   - Contributing: contributing.md
   - License: license.md
