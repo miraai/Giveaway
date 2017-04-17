@@ -6,9 +6,6 @@ Giveaway is an app that does app things for the app people by the app aliens. Sp
 
 [![Material for MkDocs](images/material.png)](images/material.png)
 
-  [1]: http://www.mkdocs.org
-  [2]: https://www.google.com/design/spec/material-design
-
 ## Use how?
 
 Install the latest version of Giveaway app:
