@@ -22,7 +22,7 @@
         },
         {
             "location": "/getting-started/",
-            "text": "Getting started\n\u00b6\n\n\nInstallation\n\u00b6\n\n\nYes, we will get there.\n\n\n\n\n\nTroubleshooting\n\u00b6\n\n\n\n\nInstallation on SomePlaceOrDevice\n\n\nI need this.\n\n\n\n\n\n\nError: unrecognized something\n\n\nI need this, too.\n\n\n\n\nUsage\n\u00b6\n\n\nYes.\n\n\ntheme\n:\n \n'Ajla\n \nbesto\n \ngirl'\n\n\n\n\n\n\nGoogle Analytics\n\u00b6\n\n\ngoogle_analytics:\n\n  - 'UA-XXXXXXXX-X'\n  - 'auto'",
+            "text": "Getting started\n\u00b6\n\n\nInstallation\n\u00b6\n\n\n\n\nInstallation using Adroid\n\n\nDownload the official \nGiveaway\n application for Android. To use Giveaway application to its full capacity, you need to register your account and sign in through the application.\n\n\n\n\n\n\nUsing Web Application\n\n\nVisit the official \nGiveaway\n web application. To use Giveaway application to its full capacity, you need to register your account and sign in through the application.\n\n\n\n\nMinimal Requirements\n\u00b6\n\n\n\n\nAndroid Application\n\n\nHere will go Android mobile requirements.\n\n\n\n\n\n\nWeb Application\n\n\nHere will go web app requirements.\n\n\n\n\n\n\nError: unrecognized something\n\n\nI need this, too.\n\n\n\n\nUsage\n\u00b6\n\n\nOptions\n\u00b6\n\n\n\n\nWhats happening so far\n\n\n\n\n Create an account\n\n\n Pick unique username\n\n\n Log in with your account\n\n\n Edit your profile\n\n\n Create new giveawys\n\n\n Upload a picture\n\n\n Add a description\n\n\n Choose the best comment\n\n\n Contact the winner\n\n\n\n\n\n\n Send messages to users\n\n\n Receive messages\n\n\n Secure accounts\n\n\n Reset your password\n\n\n\n\n\n\nGoogle Analytics\n\u00b6\n\n\ngoogle_analytics:\n\n  - 'UA-XXXXXXXX-X'\n  - 'auto'",
             "title": "Getting started"
         },
         {
@@ -32,18 +32,23 @@
         },
         {
             "location": "/getting-started/#installation",
-            "text": "Yes, we will get there.",
+            "text": "Installation using Adroid  Download the official  Giveaway  application for Android. To use Giveaway application to its full capacity, you need to register your account and sign in through the application.    Using Web Application  Visit the official  Giveaway  web application. To use Giveaway application to its full capacity, you need to register your account and sign in through the application.",
             "title": "Installation"
         },
         {
-            "location": "/getting-started/#troubleshooting",
-            "text": "Installation on SomePlaceOrDevice  I need this.    Error: unrecognized something  I need this, too.",
-            "title": "Troubleshooting"
+            "location": "/getting-started/#minimal-requirements",
+            "text": "Android Application  Here will go Android mobile requirements.    Web Application  Here will go web app requirements.    Error: unrecognized something  I need this, too.",
+            "title": "Minimal Requirements"
         },
         {
             "location": "/getting-started/#usage",
-            "text": "Yes.  theme :   'Ajla   besto   girl'",
+            "text": "",
             "title": "Usage"
+        },
+        {
+            "location": "/getting-started/#options",
+            "text": "Whats happening so far    Create an account   Pick unique username   Log in with your account   Edit your profile   Create new giveawys   Upload a picture   Add a description   Choose the best comment   Contact the winner     Send messages to users   Receive messages   Secure accounts   Reset your password",
+            "title": "Options"
         },
         {
             "location": "/getting-started/#google-analytics",
@@ -302,13 +307,18 @@
         },
         {
             "location": "/release-notes/",
-            "text": "Release notes\n\u00b6\n\n\nWill be.",
+            "text": "Release notes\n\u00b6\n\n\n18.04.2017.\n\u00b6\n\n\n\n\nChange log\n\n\n\n\n Create an account\n\n\n Pick unique username\n\n\n Log in with your account\n\n\n Edit your profile\n\n\n Create new giveawys\n\n\n Upload a picture\n\n\n Add a description\n\n\n Choose the best comment\n\n\n Contact the winner\n\n\n\n\n\n\n Send messages to users\n\n\n Receive messages\n\n\n Secure accounts\n\n\n Reset your password",
             "title": "Release notes"
         },
         {
             "location": "/release-notes/#release-notes",
-            "text": "Will be.",
+            "text": "",
             "title": "Release notes"
+        },
+        {
+            "location": "/release-notes/#18042017",
+            "text": "Change log    Create an account   Pick unique username   Log in with your account   Edit your profile   Create new giveawys   Upload a picture   Add a description   Choose the best comment   Contact the winner     Send messages to users   Receive messages   Secure accounts   Reset your password",
+            "title": "18.04.2017."
         },
         {
             "location": "/contributing/",
