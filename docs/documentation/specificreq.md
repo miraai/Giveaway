@@ -32,7 +32,7 @@ Users communicate through the Internet network.
 
 ### 3.1.6 Memory Requirements
 
-The system requires the minimal ammount of RAM and HDD memory definied by its system requirements.
+The system requires the minimal ammount of RAM and HDD memory defined by its system requirements.
 
 ### 3.1.7 Operations
 

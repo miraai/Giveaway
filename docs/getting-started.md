@@ -2,7 +2,7 @@
 
 ## Installation
 
-!!! tip "Installation using Adroid"
+!!! tip "Installation using Android"
 
     Download the official [Giveaway][1] application for Android. To use Giveaway application to its full capacity, you need to register your account and sign in through the application.
 
