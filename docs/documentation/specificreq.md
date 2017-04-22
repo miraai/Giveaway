@@ -106,10 +106,18 @@ Users first have to register a user account by filling the registration form. Th
 
 [![Log In](../images/activitylogin.png)](../images/activitylogin.png)
 
-### 3.5.3 View
+### 3.5.3 Reset Password
 
-[![Register](../images/activityview.png)](../images/activityview.png)
+[![Reset Password](../images/activityresetpassword.png)](../images/activityresetpassword.png)
 
-### 3.5.4 Edit
+### 3.5.4 Log Out
 
-[![Register](../images/activityedit.png)](../images/activityedit.png)
+[![Log Out](../images/activitylogout.png)](../images/activitylogout.png)
+
+### 3.5.5 View
+
+[![View](../images/activityview.png)](../images/activityview.png)
+
+### 3.5.6 Edit
+
+[![Edit](../images/activityedit.png)](../images/activityedit.png)
