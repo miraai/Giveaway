@@ -1,8 +1,8 @@
-# Documentation <small>for Giveaway</small>
+# Project Documentation <small>for Giveaway</small>
 
-## Beautiful project documentation
+## Giveaway
 
-Giveaway is an app that does app things for the app people by the app aliens. Spaceships will appear above your house and take your wine. Please hide. Or share. Go green or go clean. Sharing is caring. What is life.
+It's over, Anakin! I have the high ground!
 
 [![Material for MkDocs](images/material.png)](images/material.png)
 
@@ -21,3 +21,5 @@ Link to the web app
 For detailed instructions see the [getting started guide][3].
 
   [3]: getting-started.md
+
+[![Pixy](https://mir-s3-cdn-cf.behance.net/project_modules/disp/e1814e9392729.5602de339c0be.png)](https://mir-s3-cdn-cf.behance.net/project_modules/disp/e1814e9392729.5602de339c0be.png)
