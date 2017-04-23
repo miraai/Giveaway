@@ -121,3 +121,15 @@ Users first have to register a user account by filling the registration form. Th
 ### 3.5.6 Edit
 
 [![Edit](../images/activityedit.png)](../images/activityedit.png)
+
+### 3.5.7 Create a Giveaway
+
+[![Post](../images/activitypost.png)](../images/activitypost.png)
+
+### 3.5.8 View User Profiles and Follow
+
+[![Edit](../images/activityviewfollow.png)](../images/activityviewfollow.png)
+
+### 3.5.9 View User Profiles and Unfollow
+
+[![Edit](../images/activityviewunfollow.png)](../images/activityviewunfollow.png)
